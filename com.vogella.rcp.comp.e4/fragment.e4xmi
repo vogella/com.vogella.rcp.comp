@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_uoZWYE5vEeS7P42wc91lzQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_vE6TQE5vEeS7P42wc91lzQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_QtdFQE5yEeS7P42wc91lzQ" elementId="com.vogella.rcp.comp.e4.menucontribution.0" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_VlLCIE5yEeS7P42wc91lzQ" elementId="com.vogella.rcp.comp.e4.menu.exit" label="File (e4)">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_WWgYcE5yEeS7P42wc91lzQ" elementId="com.vogella.rcp.comp.e4.directmenuitem.test" label="Exit" contributionURI="bundleclass://com.vogella.rcp.comp.e4/com.vogella.rcp.comp.e4.handlers.ExitHandler"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_uEpE4E52EeS7P42wc91lzQ">
+    <elements xsi:type="menu:TrimContribution" xmi:id="_DQOR0E53EeS7P42wc91lzQ" elementId="com.vogella.rcp.comp.e4.trimcontribution.0" positionInParent="last">
+      <children xsi:type="menu:ToolBar" xmi:id="_EpnGoE53EeS7P42wc91lzQ" elementId="com.vogella.rcp.comp.e4.toolbar.0">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_xs8BQE52EeS7P42wc91lzQ" elementId="com.vogella.rcp.comp.e4.directtoolitem.exitE4" label="Exit (e4)" contributionURI="bundleclass://com.vogella.rcp.comp.e4/com.vogella.rcp.comp.e4.handlers.ExitHandler"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

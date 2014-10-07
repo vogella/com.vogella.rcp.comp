@@ -52,6 +52,18 @@
             </command>
          </menu>
       </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.ui.main.toolbar">
+         <toolbar
+               id="com.vogella.rcp.comp.application.toolbar1">
+            <command
+                  commandId="org.eclipse.ui.file.exit"
+                  label="Exit"
+                  style="push">
+            </command>
+         </toolbar>
+      </menuContribution>
    </extension>
    <extension
          id="product"

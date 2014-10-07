@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: E4
+Bundle-SymbolicName: com.vogella.rcp.comp.e4;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: VOGELLA
+Require-Bundle: org.eclipse.e4.core.di,
+ org.eclipse.e4.ui.workbench;bundle-version="1.2.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.eclipse.ui
